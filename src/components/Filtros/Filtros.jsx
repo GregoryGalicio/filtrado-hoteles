@@ -76,6 +76,8 @@ function Filtros({
           />
         </div>
         {/* filtro pais */}
+        <div>
+        <span>paises</span>
         <select onChange={seleccionPais} value={country}>
           <option value="todos">Todos los paises</option>
           <option value="argentina">Argentina</option>
@@ -83,7 +85,11 @@ function Filtros({
           <option value="chile">Chile</option>
           <option value="uruguay">Uruguay</option>
         </select>
+        </div>
+        
         {/* filtro precio */}
+        <div>
+        <span>precio</span>
         <select onChange={seleccionPrecio} value={price}>
           <option value="todos">Cualquier Precio</option>
           <option value="$">Económico</option>
@@ -91,13 +97,19 @@ function Filtros({
           <option value="$$$">Lujo</option>
           <option value="$$$$">Magnífico</option>
         </select>
+        </div>
+        
         {/* filtro tamaño */}
+        <div>
+        <span>tamaño</span>
         <select onChange={seleccionTamaño} value={size}>
           <option value="todos">Cualquier Tamaño</option>
           <option value="pequeño">Pequeño</option>
           <option value="mediano">Mediano</option>
           <option value="grande">Grande</option>
         </select>
+        </div>
+       
         {/* filtro reset filtros */}
         <button onClick={manejarClick}>Limpiar</button>
       </div>
