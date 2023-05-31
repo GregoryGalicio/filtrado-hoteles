@@ -16,9 +16,6 @@ function Header({ pais, desde, hasta, precio, tamaño }) {
   return (
     <div className="Header">
       <h1>Hoteles</h1>
-      <h3>el país seleccionado es: {pais} </h3>
-      <h3>el precio seleccionado es: {precio} </h3>
-      <h3>el tamaño seleccionado es: {tamaño} </h3>
       {desde ? <h3>desde el {desdeNormal}</h3> : ""}
       {hasta ? <h3>hasta el {hastaNormal}</h3> : ""}
     </div>
