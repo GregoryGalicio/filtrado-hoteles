@@ -1,0 +1,21 @@
+.Hoteles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ 
+}
+.not-available{
+  // position: absolute;
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+// .img{
+// width: 550px;
+// }
+          
+        
