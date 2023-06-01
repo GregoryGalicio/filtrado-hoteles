@@ -12,13 +12,14 @@
   margin-bottom: 15px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 5%;
+  overflow: hidden;/*este estilo hace que los hijos de ese box tengan como limite al padre y sus estilos en este caso el border radius*/
   //font-family: sans-serif;
   
   .containerImageDescription {
     height: 450px;
     overflow: auto;
     border-bottom: 1px solid black;
-    border-radius: 5% 5% 0% 0%;
+    
     
   }
   .image{
@@ -48,9 +49,10 @@
   }
   .description{
     font-size: 10px;
+    // border: solid 1px purple;
+    margin:0px 7px 0px 7px;
     //font-family: sans-serif;
 
-    
   }
 
 
@@ -79,7 +81,7 @@
 
     &:hover {
       cursor: pointer;
-      background-color: purple;
+      background-color: rgb(42, 42, 252);
       color:white
     }
   }
