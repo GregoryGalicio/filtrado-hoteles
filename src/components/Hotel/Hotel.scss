@@ -7,14 +7,12 @@
   align-items: center;
   width: 370px;
   height: 550px;
-  color: black;
-  border: 2px solid lightgray;
-  border-radius: 5px;
+  color: rgba(9,9,121,1);
   background-color: lightcyan;
   margin:15px;
   margin-bottom: 15px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 5%;
+  border-radius: 4%;
   overflow: hidden;/*este estilo hace que los hijos de ese box tengan como limite al padre y sus estilos en este caso el border radius*/
   //font-family: sans-serif;
   
@@ -49,13 +47,14 @@
     background-color:var(--blue);
     margin: 5px;
     padding: 5px;
-    // color: white;
+    // color: white; 
     
   }
   .description{
     font-size: 10px;
     // border: solid 1px purple;
     margin:0px 7px 0px 7px;
+    text-align: left;
     //font-family: sans-serif;
 
   }
