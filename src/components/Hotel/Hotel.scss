@@ -1,3 +1,6 @@
+:root{
+  --blue:#00d4ff;
+}
 .Hotel {
   display: flex;
   flex-direction: column;
@@ -32,9 +35,10 @@
     font-size: 15px;
     font-family: roboto;
     width:"100%";
-    background-color:cyan;
+    background-color:var(--blue);
     margin: 5px;
     padding: 5px;
+    // color: white;
     
   }
   
@@ -42,9 +46,10 @@
     font-size: 15px;
     font-family: roboto;
     width:"100%";
-    background-color:cyan;
+    background-color:var(--blue);
     margin: 5px;
     padding: 5px;
+    // color: white;
     
   }
   .description{
@@ -59,11 +64,7 @@
   .cityInformation{
     font-size: 14px;
   }
-  // .price{
-  //   //
-  //   //background-color:cyan;
-    
-  // }
+  
   header {
     max-height: 40px;
     span {
@@ -73,11 +74,12 @@
 
   .btnBook {
     width: 50%;
-    background-color:cyan;
+    background-color:var(--blue);
     padding: 5px 0;
     margin-left: 2.5%;
     margin-top: 2.5%;
     border-radius:7px;
+    color: white;
 
     &:hover {
       cursor: pointer;
