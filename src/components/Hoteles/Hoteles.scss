@@ -2,20 +2,31 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
- 
 }
-.not-available{
+.not-available {
   // position: absolute;
-  background-color: orange;
+  // background: linear-gradient(
+  //   90deg,
+  //   rgba(0, 212, 255, 1) 0%,
+  //   rgba(9, 9, 121, 1) 50%,
+  //   rgba(2, 0, 36, 1) 100%
+  // );
+  background-color: rgba(9, 9, 121, 1);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
+  padding-top: 30px;
+  color: white;
+}
+
+@media screen and (max-width:460px) {
+  .not-available img{
+  width: 80%;
+  }
 }
 
 // .img{
 // width: 550px;
 // }
-          
-        
