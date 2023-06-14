@@ -6,22 +6,22 @@
   align-items: center;
   width: 100%;
   background-color: rgba(9,9,121,1);
-  height: 140px;
   box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
   margin-bottom: 50px;
+  padding-bottom: 40px;
   padding-top: 20px;
   font-family: 'roboto', sans-serif;
   color: white;
-  // border: 2px red solid;
+  border: 2px red solid;
 }
 
 .filtros-lista {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-end;
   flex-wrap: wrap;
   width: 90%;
-  // border: 2px solid green;
+  border: 2px solid green;
 }
 .filtros-lista div {
   display: flex;
@@ -56,4 +56,11 @@ button {
 button:hover{
   background-color: rgb(231, 21, 231);
 
+}
+
+@media screen and (max-width:460px) {
+  .filtros select,
+button{
+  width: 130px;
+  }
 }
