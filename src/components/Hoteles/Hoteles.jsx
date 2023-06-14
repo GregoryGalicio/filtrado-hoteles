@@ -6,7 +6,7 @@ function Hoteles({ listData }) {
   return listData.length === 0 ? (
     <div className="not-available">
       <h3>LO SENTIMOS, NO HAY HOTELES CON LOS FILTROS SELECCIONADOS</h3>
-      <img src="not.jpg" alt="not"/>
+      <img src="../../../images/not.jpg" alt="not"/>
     </div>
   ) : (
     <div className="Hoteles">
