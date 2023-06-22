@@ -121,3 +121,10 @@
     }
   }
 }
+
+@media screen and (max-width:460px) {
+  .Hotel:hover{
+  transform: scale(1);
+  }
+}
+
