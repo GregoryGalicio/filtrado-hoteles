@@ -33,7 +33,7 @@ function Hotel({
   );
 
   return (
-    <div className="Hotel">
+    <section className="Hotel">
       <section className="containerImageDescription">
         <div className="image">
           <img width="100%" src={photo} alt={name} />
@@ -64,7 +64,7 @@ function Hotel({
       <section onClick={manejarClick} className="btnBook">
         <span className="label">Reservar</span>
       </section>
-    </div>
+    </section>
   );
 }
 
